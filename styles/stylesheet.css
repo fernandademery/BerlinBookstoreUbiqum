@@ -79,3 +79,8 @@ div>img {
 .btn {
     margin-top: 30px;
 }
+
+.btn a {
+    text-decoration: none;
+    color: pink;
+}
