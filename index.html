@@ -21,8 +21,8 @@
         </a>
         <form class="form-inline my-2 my-lg-0">
             <input id="input-search" class="form-control mr-sm-2" type="search" placeholder="Search your book"
-                aria-label="Search">
-            <!--  <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" onclick="filter()">Search</button> -->
+                aria-label="Search" onsubmit="return false">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" onclick="return false">Search</button>
         </form>
     </nav>
 
@@ -30,6 +30,12 @@
     <div id="list-books">
 
     </div>
+
+    <div id="spinner"></div>
+
+    <footer> Get in touch! <a href="#"> <img src="images/facebook-logo.png" alt="facebook logo" width="30px"></a> <a
+            href="#"><img src="images/insta-logo.png" alt="instagram logo" width="30px"> </a> <a href="#"><img
+                src="images/twitter-logo.png" alt="twitter logo" width="30px"></a></footer>
 
 
 

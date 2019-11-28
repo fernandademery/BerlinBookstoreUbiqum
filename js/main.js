@@ -9,6 +9,7 @@ fetch("https://api.myjson.com/bins/zyv02")
     data = json;
     books = data.books;
     console.log(books);
+    spinner.style = "display:none";
     displayBooks(books);
     filter();
   })
